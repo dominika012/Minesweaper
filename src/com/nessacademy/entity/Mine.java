@@ -1,14 +1,11 @@
-package com.nessacademy.mines;
+package com.nessacademy.entity;
 
 public class Mine extends Tile{
 
-	public static int value = -1;
-
 	public Mine(State state) {
-		super(state, value);
+		super(state);
 	}
 
-	
 	
 	@Override
 	public String toString() {

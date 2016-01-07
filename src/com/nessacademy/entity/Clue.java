@@ -1,4 +1,4 @@
-package com.nessacademy.mines;
+package com.nessacademy.entity;
 
 public class Clue extends Tile{
 
@@ -7,8 +7,8 @@ public class Clue extends Tile{
 
 
 	public Clue(State state, int value) {
-		super(state, value);
-		
+		super(state);
+		this.value=value;
 	}
 
 	
